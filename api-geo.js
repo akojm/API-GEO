@@ -20,7 +20,7 @@ if(this.value.length == 5){
     document.querySelector(".ville").innerHTML= affichage; // affichage ma requete ou donnée dans ma div de classe ville //
     })
  ).catch((error) =>console.log('erreur' + error)) // Gestion des erreurs et probleme de l'API //
-   
+  
 }
 })
 

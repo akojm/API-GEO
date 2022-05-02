@@ -37,5 +37,17 @@ form{
 .ville{
     display: flex;
     justify-content: center;
-  
+   
+}
+
+/***** MEDIA QURERY*/
+
+@media screen and (max-width:765px) {
+   .ville{
+       font-size: 0.9rem;
+   }
+   .form-group input{
+    width: 60%;
+   
+}
 }
